@@ -1,6 +1,11 @@
+/* stack implementation using array in C. 
+  program is written by Nirbhay Kaushik.
+  https://www.youtube.com/techfully
+ */
+
 #include<stdio.h>
 #include<stdlib.h>
-#define maxSize 4
+#define maxSize 10
 int stack[maxSize],top=-1;
 
 int push(int element)
